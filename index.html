@@ -16,7 +16,7 @@
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="css/font-awesome.min.css">
 <link rel="stylesheet" href="css/templatemo-style.css">
-
+<link rel="stylesheet" href="style.css">
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
 
 </head>
@@ -281,8 +281,8 @@
 
 
 <!-- Quotes Section -->
-
-<section id="quotes" class="parallax-section">
+<!--
+     <section id="quotes" class="parallax-section">
      <div class="overlay"></div>
      <div class="container">
           <div class="row">
@@ -295,9 +295,87 @@
 
           </div>
      </div>
+</section> -->
+
+<section id="quotes" class="parallax-section">
+     <div class="container">
+
+<style>
+     div.gallery {
+       margin: 5px;
+       float: left;
+       width: 265px;
+     }
+
+     
+     div.gallery img {
+       width: 100%;
+       height: auto;
+       align-content: center;
+     }
+     
+     div.desc {
+       padding: 15px;
+       text-align: center;
+     }
+     .zoom {
+  transition: transform .2s; /* Animation */
+  width: 265px;
+  height: 265px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 767px) {
+	.pause-animation-mobile {
+		animation: none !important;
+	}
+}
+
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+     </style>
+    
+     <div class="gallery">
+          <div class="zoom">
+               <div class="pause-animation-mobile">
+       <a target="_blank" href="https://in.linkedin.com/in/ceokartik">
+         <img src="images/digital_marketing-min.png" alt="Cinque Terre" width="955" height="670">
+       </a>
+          </div></div>
+
+     </div>
+     
+     <div class="gallery">
+          <div class="zoom">
+               <div class="pause-animation-mobile">
+       <a target="_blank" href="https://in.linkedin.com/in/ceokartik">
+         <img src="images/analytics_adv-min.png" alt="Forest" width="955" height="670">
+       </a>
+          </div></div>
+
+     </div>
+     
+     <div class="gallery">
+          <div class="zoom">
+               <div class="pause-animation-mobile">
+       <a target="_blank" href="https://in.linkedin.com/in/ceokartik">
+         <img src="images/datastudio-min.png" alt="Northern Lights" width="955" height="670">
+       </a>
+          </div></div>
+     </div>
+     
+     <div class="gallery">
+          <div class="zoom">
+               <div class="pause-animation-mobile">
+       <a target="_blank" href="https://in.linkedin.com/in/ceokartik">
+         <img src="images/tagmanager-min.png" alt="Mountains" width="955" height="670">
+       </a>
+          </div></div>
+      
+     </div>
+ </div>
+
 </section>
-
-
 <!-- Contact Section -->
 
 <section id="contact" class="parallax-section">

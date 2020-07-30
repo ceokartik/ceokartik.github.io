@@ -1,1 +1,0 @@
-# ceokartik.github.io
